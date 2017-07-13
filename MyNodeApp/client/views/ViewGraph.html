@@ -1,0 +1,11 @@
+<section>
+  <article ng-repeat="r in ipdomain">
+    <header>
+      <h1>{{r.ip }}</h1>
+      <h2>{{r.domain}}</h2>
+    </header>
+  </article>
+</section>
+<div ng-show="showGraph">
+      <network-graph data="graph" ng-repeat="graph in graphs"></network-graph>
+</div>

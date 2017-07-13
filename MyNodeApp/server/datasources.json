@@ -1,0 +1,14 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "neo4j": {
+    "port": 7474,
+        "username": "neo4j",
+        "password": "ford2017",
+        "name": "neo4j",
+        "connector": "neo4j-graph",
+        "hostname": "127.0.0.1"
+  }
+}

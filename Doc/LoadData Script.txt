@@ -1,0 +1,2 @@
+LOAD CSV WITH HEADERS FROM "file:\\TestData\\convertcsv.csv" AS row
+CREATE (ipdomain:IPDomain {ip: row.ip, domain: row.domain});
